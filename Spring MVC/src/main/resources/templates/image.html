@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+</head>
+<body>
+<div class="container">
+        <tr th:each="image: ${index}">
+            <td><img th:src="${'/gallery/pic/'+image}"/></td>
+        </tr>
+</div>
+</body>
+</html>
